@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: linear-gradient(to right,
+    pink 0%,
+    pink 30%,
+    lightblue 30%,
+    lightblue 70%,
+    lightgreen 70%,
+    lightgreen 100%
+    ); */
+    /* https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/11/Nov-25-2019-09-24-03.gif?ssl=1 */
+
+    
+    /* https://media.istockphoto.com/id/1248542684/vector/abstract-blurred-colorful-background.jpg?s=612x612&w=0&k=20&c=6aJX8oyUBsSBZFQUCJDP7KZ1y4vrf-wEH_SJsuq7B5I= */
+    /*  */
+    /* https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg */
+   background: url("https://i0.wp.com/css-tricks.com/wp-content/uploads/2019/11/Nov-25-2019-09-24-03.gif?ssl=1");
+   background-size: cover;
+}
+.Navbar{
+    background-color: #333;
+    color: #fff;
+    position: sticky;
+    
+   }
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Italianno&family=Lilita+One&display=swap');
+.Header{
+    margin-left: 40%;
+    margin-right: 40%;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Italianno', cursive;
+    font-family: 'Lilita One', cursive;
+    color: aqua;
+    border-radius: 4px;
+}
+.App {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+  input[type="file"] {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
+  button {
+    font-style: oblique;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(180, 13, 13);
+    border-radius: 10px;
+    border-top: solid lightgreen;
+    border-right: solid lightgreen;
+    border-bottom: solid darkgreen;
+    border-left: solid darkgreen;
+    background: rgb(117, 170, 248);
+}
+.border-class{
+    margin:10%;
+    padding: 0%;
+    border:  solid red;
+    border-radius: 50px;
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg ");
+}  
+
+   .Navbar-content{
+     list-style-type: none;
+     display:flex;
+     padding: 1%;
+     margin: 0%;
+     justify-content: start; 
+   }
+   li{
+     cursor: pointer;
+     margin-right: 5px; /* Add some margin on the right side of each list item */
+   }
+   /* To remove the right margin from the last list item */
+   li:last-child {
+     margin-right: 0;
+   }
+   .body{
+
+   }
